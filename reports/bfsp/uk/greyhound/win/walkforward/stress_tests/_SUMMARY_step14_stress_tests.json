@@ -1,0 +1,358 @@
+{
+  "WF_TOP3_TRAIN_PNL": {
+    "basket": "WF_TOP3_TRAIN_PNL",
+    "tracks": [
+      "Harlow",
+      "Crayford",
+      "Romford"
+    ],
+    "base": {
+      "total_pnl": 575.5455425949617,
+      "n_bets": 14371,
+      "n_days": 405,
+      "max_dd": -254.5995345675716,
+      "ttr_median_days": 2.0,
+      "ttr_p90_days": 14.600000000000005,
+      "ttr_max_days": 46.0,
+      "streak_day_max": 8,
+      "streak_day_p90": 4.299999999999997,
+      "worst_1d": -61.5,
+      "worst_5d": -110.26162657247032,
+      "worst_20d": -186.1583588441108
+    },
+    "perm": {
+      "p_best_month_ge_actual": 0.4735,
+      "p_dd_worse_or_equal_actual": 0.6425,
+      "actual_best_month": 232.18478876827845
+    },
+    "boot": {
+      "total_ci95": [
+        -199.7892054430621,
+        1404.252919869077
+      ],
+      "dd_ci95": [
+        -591.7716233969729,
+        -149.9604602232346
+      ]
+    },
+    "remove_top_days": {
+      "total_pnl": -5.491897083418053,
+      "n_bets": 14371,
+      "n_days": 405,
+      "max_dd": -495.7573743649986,
+      "ttr_median_days": 2.0,
+      "ttr_p90_days": 22.39999999999999,
+      "ttr_max_days": 46.0,
+      "streak_day_max": 8,
+      "streak_day_p90": 4.299999999999997,
+      "worst_1d": -61.5,
+      "worst_5d": -110.2616265724703,
+      "worst_20d": -234.92677648414988
+    },
+    "remove_best_month": {
+      "best_month": "2022-04",
+      "total_pnl": 343.3607538266834,
+      "n_bets": 14371,
+      "n_days": 405,
+      "max_dd": -254.59953456757182,
+      "ttr_median_days": 2.0,
+      "ttr_p90_days": 16.900000000000002,
+      "ttr_max_days": 46.0,
+      "streak_day_max": 8,
+      "streak_day_p90": 5.0,
+      "worst_1d": -61.5,
+      "worst_5d": -110.26162657247032,
+      "worst_20d": -186.1583588441108
+    },
+    "edge": {
+      "win_rate": 0.08099645118641709,
+      "implied": 0.07761396932477789,
+      "edge": 0.003382481861639197,
+      "ev_per_bet": 0.040049094885182795
+    },
+    "meta": {
+      "test_start": "2022-01-01 00:00:00",
+      "test_end": "2023-02-20 23:59:59",
+      "bsp_lo": 10.0,
+      "bsp_hi": 20.0,
+      "seed": 42,
+      "n_perm": 2000,
+      "n_boot": 2000,
+      "remove_top_n_days": 10
+    }
+  },
+  "WF_TOP5_TRAIN_PNL": {
+    "basket": "WF_TOP5_TRAIN_PNL",
+    "tracks": [
+      "Harlow",
+      "Crayford",
+      "Romford",
+      "Swindon",
+      "Hove"
+    ],
+    "base": {
+      "total_pnl": 597.3000190309258,
+      "n_bets": 23672,
+      "n_days": 406,
+      "max_dd": -438.6742560194683,
+      "ttr_median_days": 2.5,
+      "ttr_p90_days": 11.0,
+      "ttr_max_days": 33.0,
+      "streak_day_max": 7,
+      "streak_day_p90": 4.0,
+      "worst_1d": -72.0,
+      "worst_5d": -195.23910563168334,
+      "worst_20d": -256.99318270232686
+    },
+    "perm": {
+      "p_best_month_ge_actual": 0.618,
+      "p_dd_worse_or_equal_actual": 0.3045,
+      "actual_best_month": 254.21912680843224
+    },
+    "boot": {
+      "total_ci95": [
+        -453.17892644096855,
+        1635.7476445286331
+      ],
+      "dd_ci95": [
+        -882.4871339765333,
+        -211.14707017963352
+      ]
+    },
+    "remove_top_days": {
+      "total_pnl": -71.6648693790346,
+      "n_bets": 23672,
+      "n_days": 406,
+      "max_dd": -589.2254050109968,
+      "ttr_median_days": 3.0,
+      "ttr_p90_days": 10.400000000000002,
+      "ttr_max_days": 98.0,
+      "streak_day_max": 7,
+      "streak_day_p90": 4.0,
+      "worst_1d": -72.0,
+      "worst_5d": -195.23910563168334,
+      "worst_20d": -256.99318270232686
+    },
+    "remove_best_month": {
+      "best_month": "2022-05",
+      "total_pnl": 343.08089222249345,
+      "n_bets": 23672,
+      "n_days": 406,
+      "max_dd": -438.6742560194681,
+      "ttr_median_days": 3.0,
+      "ttr_p90_days": 15.000000000000004,
+      "ttr_max_days": 33.0,
+      "streak_day_max": 7,
+      "streak_day_p90": 4.0,
+      "worst_1d": -72.0,
+      "worst_5d": -195.23910563168334,
+      "worst_20d": -256.99318270232686
+    },
+    "edge": {
+      "win_rate": 0.08001013856032443,
+      "implied": 0.07737961473856131,
+      "edge": 0.0026305238217631255,
+      "ev_per_bet": 0.025232342811377394
+    },
+    "meta": {
+      "test_start": "2022-01-01 00:00:00",
+      "test_end": "2023-02-20 23:59:59",
+      "bsp_lo": 10.0,
+      "bsp_hi": 20.0,
+      "seed": 42,
+      "n_perm": 2000,
+      "n_boot": 2000,
+      "remove_top_n_days": 10
+    }
+  },
+  "WF_TOP10_TRAIN_PNL": {
+    "basket": "WF_TOP10_TRAIN_PNL",
+    "tracks": [
+      "Harlow",
+      "Crayford",
+      "Romford",
+      "Swindon",
+      "Hove",
+      "Sunderland",
+      "Perry Barr",
+      "Towcester",
+      "Henlow",
+      "Kinsley"
+    ],
+    "base": {
+      "total_pnl": 428.4400122946861,
+      "n_bets": 39050,
+      "n_days": 409,
+      "max_dd": -821.4617516715398,
+      "ttr_median_days": 3.0,
+      "ttr_p90_days": 13.800000000000004,
+      "ttr_max_days": 21.0,
+      "streak_day_max": 6,
+      "streak_day_p90": 4.0,
+      "worst_1d": -84.26556158011277,
+      "worst_5d": -211.96593696003822,
+      "worst_20d": -273.0701085663258
+    },
+    "perm": {
+      "p_best_month_ge_actual": 0.64,
+      "p_dd_worse_or_equal_actual": 0.1,
+      "actual_best_month": 301.5881448121477
+    },
+    "boot": {
+      "total_ci95": [
+        -831.6814766020528,
+        1798.0596082519967
+      ],
+      "dd_ci95": [
+        -1313.6883124461524,
+        -287.5730865122518
+      ]
+    },
+    "remove_top_days": {
+      "total_pnl": -398.3666066962604,
+      "n_bets": 39050,
+      "n_days": 409,
+      "max_dd": -988.355853373639,
+      "ttr_median_days": 5.0,
+      "ttr_p90_days": 22.800000000000004,
+      "ttr_max_days": 68.0,
+      "streak_day_max": 6,
+      "streak_day_p90": 4.0,
+      "worst_1d": -84.26556158011277,
+      "worst_5d": -211.96593696003828,
+      "worst_20d": -287.5202920487498
+    },
+    "remove_best_month": {
+      "best_month": "2022-05",
+      "total_pnl": 126.85186748253847,
+      "n_bets": 39050,
+      "n_days": 409,
+      "max_dd": -821.4617516715396,
+      "ttr_median_days": 3.0,
+      "ttr_p90_days": 20.4,
+      "ttr_max_days": 38.0,
+      "streak_day_max": 6,
+      "streak_day_p90": 4.0,
+      "worst_1d": -84.26556158011277,
+      "worst_5d": -211.96593696003822,
+      "worst_20d": -273.0701085663258
+    },
+    "edge": {
+      "win_rate": 0.07943661971830986,
+      "implied": 0.07747260085350491,
+      "edge": 0.001964018864804948,
+      "ev_per_bet": 0.010971575218813982
+    },
+    "meta": {
+      "test_start": "2022-01-01 00:00:00",
+      "test_end": "2023-02-20 23:59:59",
+      "bsp_lo": 10.0,
+      "bsp_hi": 20.0,
+      "seed": 42,
+      "n_perm": 2000,
+      "n_boot": 2000,
+      "remove_top_n_days": 10
+    }
+  },
+  "WF_ALL_UK_10_20": {
+    "basket": "WF_ALL_UK_10_20",
+    "tracks": [
+      "Central Park",
+      "Crayford",
+      "Doncaster",
+      "Harlow",
+      "Henlow",
+      "Hove",
+      "Kinsley",
+      "Monmore",
+      "Mullingar",
+      "Newcastle",
+      "Nottingham",
+      "Oxford",
+      "Pelaw Grange",
+      "Perry Barr",
+      "Romford",
+      "Sheffield",
+      "Shelbourne Park",
+      "Suffolk Downs",
+      "Sunderland",
+      "Swindon",
+      "Towcester",
+      "Yarmouth"
+    ],
+    "base": {
+      "total_pnl": -40.3253721635495,
+      "n_bets": 70926,
+      "n_days": 410,
+      "max_dd": -1208.6453321046151,
+      "ttr_median_days": 2.0,
+      "ttr_p90_days": 53.40000000000004,
+      "ttr_max_days": 120.0,
+      "streak_day_max": 7,
+      "streak_day_p90": 4.700000000000003,
+      "worst_1d": -140.15728129533358,
+      "worst_5d": -306.08496816905404,
+      "worst_20d": -557.735239970063
+    },
+    "perm": {
+      "p_best_month_ge_actual": 0.68,
+      "p_dd_worse_or_equal_actual": 0.2175,
+      "actual_best_month": 356.4783310372766
+    },
+    "boot": {
+      "total_ci95": [
+        -1814.9916241041967,
+        1761.4715999956213
+      ],
+      "dd_ci95": [
+        -2270.1569558452243,
+        -462.50945301127786
+      ]
+    },
+    "remove_top_days": {
+      "total_pnl": -1121.5510229417632,
+      "n_bets": 70926,
+      "n_days": 410,
+      "max_dd": -1804.5168856833736,
+      "ttr_median_days": 2.0,
+      "ttr_p90_days": 7.6000000000000005,
+      "ttr_max_days": 9.0,
+      "streak_day_max": 7,
+      "streak_day_p90": 4.700000000000003,
+      "worst_1d": -140.15728129533358,
+      "worst_5d": -306.08496816905404,
+      "worst_20d": -557.7352399700629
+    },
+    "remove_best_month": {
+      "best_month": "2022-12",
+      "total_pnl": -396.8037032008261,
+      "n_bets": 70926,
+      "n_days": 410,
+      "max_dd": -1221.5030269055335,
+      "ttr_median_days": 2.0,
+      "ttr_p90_days": 53.40000000000004,
+      "ttr_max_days": 120.0,
+      "streak_day_max": 7,
+      "streak_day_p90": 4.400000000000006,
+      "worst_1d": -140.15728129533358,
+      "worst_5d": -306.08496816905404,
+      "worst_20d": -557.735239970063
+    },
+    "edge": {
+      "win_rate": 0.07851845585539859,
+      "implied": 0.07714828334447416,
+      "edge": 0.0013701725109244306,
+      "ev_per_bet": -0.0005685555672609458
+    },
+    "meta": {
+      "test_start": "2022-01-01 00:00:00",
+      "test_end": "2023-02-20 23:59:59",
+      "bsp_lo": 10.0,
+      "bsp_hi": 20.0,
+      "seed": 42,
+      "n_perm": 2000,
+      "n_boot": 2000,
+      "remove_top_n_days": 10
+    }
+  }
+}

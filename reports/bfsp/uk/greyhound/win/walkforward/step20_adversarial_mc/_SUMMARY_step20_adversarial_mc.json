@@ -1,0 +1,338 @@
+{
+  "drag=0.000|block=month|badq=0.25|badx=3": {
+    "tag": "drag=0.000|block=month|badq=0.25|badx=3",
+    "drag_per_bet": 0.0,
+    "block_mode": "month",
+    "bad_quantile": 0.25,
+    "bad_weight_mult": 3.0,
+    "good_weight_mult": 1.0,
+    "summary": {
+      "terminal_pnl": {
+        "mean": 218.02034780683223,
+        "p05": -1218.5014522527053,
+        "p50": 199.42328000467523,
+        "p95": 1724.0356384134218
+      },
+      "max_dd": {
+        "mean": -998.548970576926,
+        "p05": -1766.4224110064044,
+        "p50": -918.6385524073402,
+        "p95": -506.6131935297238
+      },
+      "worst_20d": {
+        "mean": -235.60764032442412,
+        "p05": -259.5849658100626,
+        "p50": -236.44329010047437,
+        "p95": -207.2034968374752
+      },
+      "ruin_probs": {
+        "200": 0.7758,
+        "300": 0.6798,
+        "500": 0.495,
+        "750": 0.3172,
+        "1000": 0.1876,
+        "1500": 0.0506,
+        "2000": 0.0112
+      },
+      "n_sims": 5000
+    },
+    "files": {
+      "sims_csv": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_sims_step20__drag_0.000__block_month__badq_0.25__badx_3.csv",
+      "paths_sample_parquet": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_paths_sample_step20__drag_0.000__block_month__badq_0.25__badx_3.parquet"
+    }
+  },
+  "drag=0.000|block=quarter|badq=0.25|badx=3": {
+    "tag": "drag=0.000|block=quarter|badq=0.25|badx=3",
+    "drag_per_bet": 0.0,
+    "block_mode": "quarter",
+    "bad_quantile": 0.25,
+    "bad_weight_mult": 3.0,
+    "good_weight_mult": 1.0,
+    "summary": {
+      "terminal_pnl": {
+        "mean": 1368.0759807919555,
+        "p05": -12.855853619047323,
+        "p50": 1367.7319053096637,
+        "p95": 2787.375708829787
+      },
+      "max_dd": {
+        "mean": -632.0969065137795,
+        "p05": -1042.836614706828,
+        "p50": -584.1234881274545,
+        "p95": -389.301779166559
+      },
+      "worst_20d": {
+        "mean": -208.0827097992775,
+        "p05": -223.7661248129121,
+        "p50": -207.21828509784626,
+        "p95": -198.0891664368574
+      },
+      "ruin_probs": {
+        "200": 0.4176,
+        "300": 0.2782,
+        "500": 0.109,
+        "750": 0.0332,
+        "1000": 0.0116,
+        "1500": 0.0006,
+        "2000": 0.0
+      },
+      "n_sims": 5000
+    },
+    "files": {
+      "sims_csv": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_sims_step20__drag_0.000__block_quarter__badq_0.25__badx_3.csv",
+      "paths_sample_parquet": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_paths_sample_step20__drag_0.000__block_quarter__badq_0.25__badx_3.parquet"
+    }
+  },
+  "drag=0.005|block=month|badq=0.25|badx=3": {
+    "tag": "drag=0.005|block=month|badq=0.25|badx=3",
+    "drag_per_bet": 0.005,
+    "block_mode": "month",
+    "bad_quantile": 0.25,
+    "bad_weight_mult": 3.0,
+    "good_weight_mult": 1.0,
+    "summary": {
+      "terminal_pnl": {
+        "mean": -180.91439019316778,
+        "p05": -1617.689208043155,
+        "p50": -201.57470849763834,
+        "p95": 1326.1801716109526
+      },
+      "max_dd": {
+        "mean": -1171.151918120482,
+        "p05": -2058.8932378440404,
+        "p50": -1086.2547999431968,
+        "p95": -569.4939178314919
+      },
+      "worst_20d": {
+        "mean": -240.45937441557172,
+        "p05": -264.47996581006265,
+        "p50": -241.6982901004744,
+        "p95": -211.6325198904261
+      },
+      "ruin_probs": {
+        "200": 0.8594,
+        "300": 0.782,
+        "500": 0.6494,
+        "750": 0.468,
+        "1000": 0.3286,
+        "1500": 0.1218,
+        "2000": 0.0348
+      },
+      "n_sims": 5000
+    },
+    "files": {
+      "sims_csv": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_sims_step20__drag_0.005__block_month__badq_0.25__badx_3.csv",
+      "paths_sample_parquet": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_paths_sample_step20__drag_0.005__block_month__badq_0.25__badx_3.parquet"
+    }
+  },
+  "drag=0.005|block=quarter|badq=0.25|badx=3": {
+    "tag": "drag=0.005|block=quarter|badq=0.25|badx=3",
+    "drag_per_bet": 0.005,
+    "block_mode": "quarter",
+    "bad_quantile": 0.25,
+    "bad_weight_mult": 3.0,
+    "good_weight_mult": 1.0,
+    "summary": {
+      "terminal_pnl": {
+        "mean": 969.2355707919556,
+        "p05": -408.4556608734492,
+        "p50": 967.1896766089365,
+        "p95": 2391.4319814593005
+      },
+      "max_dd": {
+        "mean": -716.3969290132433,
+        "p05": -1222.069316589368,
+        "p50": -658.174125435539,
+        "p95": -418.4475346298466
+      },
+      "worst_20d": {
+        "mean": -212.33227252355945,
+        "p05": -229.15112481291214,
+        "p50": -211.36328509784627,
+        "p95": -202.77916643685742
+      },
+      "ruin_probs": {
+        "200": 0.5258,
+        "300": 0.3834,
+        "500": 0.1978,
+        "750": 0.0884,
+        "1000": 0.0314,
+        "1500": 0.0048,
+        "2000": 0.0002
+      },
+      "n_sims": 5000
+    },
+    "files": {
+      "sims_csv": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_sims_step20__drag_0.005__block_quarter__badq_0.25__badx_3.csv",
+      "paths_sample_parquet": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_paths_sample_step20__drag_0.005__block_quarter__badq_0.25__badx_3.parquet"
+    }
+  },
+  "drag=0.010|block=month|badq=0.25|badx=3": {
+    "tag": "drag=0.010|block=month|badq=0.25|badx=3",
+    "drag_per_bet": 0.01,
+    "block_mode": "month",
+    "bad_quantile": 0.25,
+    "bad_weight_mult": 3.0,
+    "good_weight_mult": 1.0,
+    "summary": {
+      "terminal_pnl": {
+        "mean": -579.8491281931687,
+        "p05": -2015.0414303957646,
+        "p50": -599.9316048376506,
+        "p95": 927.9682404255078
+      },
+      "max_dd": {
+        "mean": -1378.9565074920934,
+        "p05": -2368.342216504947,
+        "p50": -1297.2656706444175,
+        "p95": -645.856301594549
+      },
+      "worst_20d": {
+        "mean": -245.33232851153434,
+        "p05": -269.37496581006263,
+        "p50": -245.6553414404743,
+        "p95": -216.19277028471845
+      },
+      "ruin_probs": {
+        "200": 0.924,
+        "300": 0.8734,
+        "500": 0.7712,
+        "750": 0.6268,
+        "1000": 0.4878,
+        "1500": 0.2408,
+        "2000": 0.0824
+      },
+      "n_sims": 5000
+    },
+    "files": {
+      "sims_csv": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_sims_step20__drag_0.010__block_month__badq_0.25__badx_3.csv",
+      "paths_sample_parquet": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_paths_sample_step20__drag_0.010__block_month__badq_0.25__badx_3.parquet"
+    }
+  },
+  "drag=0.010|block=quarter|badq=0.25|badx=3": {
+    "tag": "drag=0.010|block=quarter|badq=0.25|badx=3",
+    "drag_per_bet": 0.01,
+    "block_mode": "quarter",
+    "bad_quantile": 0.25,
+    "bad_weight_mult": 3.0,
+    "good_weight_mult": 1.0,
+    "summary": {
+      "terminal_pnl": {
+        "mean": 570.3951607919543,
+        "p05": -799.3374750081414,
+        "p50": 568.3448593176709,
+        "p95": 1988.4678465750976
+      },
+      "max_dd": {
+        "mean": -827.7731084126875,
+        "p05": -1438.5930126555627,
+        "p50": -755.3314629771397,
+        "p95": -459.9723024748918
+      },
+      "worst_20d": {
+        "mean": -216.58431248875056,
+        "p05": -234.53612481291213,
+        "p50": -215.50828509784623,
+        "p95": -207.29970657331143
+      },
+      "ruin_probs": {
+        "200": 0.6778,
+        "300": 0.5224,
+        "500": 0.3226,
+        "750": 0.1638,
+        "1000": 0.0816,
+        "1500": 0.0148,
+        "2000": 0.0014
+      },
+      "n_sims": 5000
+    },
+    "files": {
+      "sims_csv": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_sims_step20__drag_0.010__block_quarter__badq_0.25__badx_3.csv",
+      "paths_sample_parquet": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_paths_sample_step20__drag_0.010__block_quarter__badq_0.25__badx_3.parquet"
+    }
+  },
+  "drag=0.020|block=month|badq=0.25|badx=3": {
+    "tag": "drag=0.020|block=month|badq=0.25|badx=3",
+    "drag_per_bet": 0.02,
+    "block_mode": "month",
+    "bad_quantile": 0.25,
+    "bad_weight_mult": 3.0,
+    "good_weight_mult": 1.0,
+    "summary": {
+      "terminal_pnl": {
+        "mean": -1367.2661212115008,
+        "p05": -2823.7295742087003,
+        "p50": -1379.614043739526,
+        "p95": 130.8627086098813
+      },
+      "max_dd": {
+        "mean": -1888.229403513305,
+        "p05": -3091.198820456421,
+        "p50": -1846.5388451720069,
+        "p95": -871.8671817815436
+      },
+      "worst_20d": {
+        "mean": -257.30294193445866,
+        "p05": -281.66487166835094,
+        "p50": -257.4632901004744,
+        "p95": -227.27871839148688
+      },
+      "ruin_probs": {
+        "200": 0.979,
+        "300": 0.9684,
+        "500": 0.9292,
+        "750": 0.87,
+        "1000": 0.779,
+        "1500": 0.5562,
+        "2000": 0.3168
+      },
+      "n_sims": 5000
+    },
+    "files": {
+      "sims_csv": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_sims_step20__drag_0.020__block_month__badq_0.25__badx_3.csv",
+      "paths_sample_parquet": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_paths_sample_step20__drag_0.020__block_month__badq_0.25__badx_3.parquet"
+    }
+  },
+  "drag=0.020|block=quarter|badq=0.25|badx=3": {
+    "tag": "drag=0.020|block=quarter|badq=0.25|badx=3",
+    "drag_per_bet": 0.02,
+    "block_mode": "quarter",
+    "bad_quantile": 0.25,
+    "bad_weight_mult": 3.0,
+    "good_weight_mult": 1.0,
+    "summary": {
+      "terminal_pnl": {
+        "mean": -227.28565920804496,
+        "p05": -1597.6448793403458,
+        "p50": -229.5963957010843,
+        "p95": 1183.4749206368267
+      },
+      "max_dd": {
+        "mean": -1149.7928590597403,
+        "p05": -2016.037876515415,
+        "p50": -1068.640156416444,
+        "p95": -575.5931984607311
+      },
+      "worst_20d": {
+        "mean": -225.25261209599068,
+        "p05": -245.30612481291217,
+        "p50": -223.66679630685746,
+        "p95": -213.97930462999997
+      },
+      "ruin_probs": {
+        "200": 0.8702,
+        "300": 0.79,
+        "500": 0.6396,
+        "750": 0.4648,
+        "1000": 0.3126,
+        "1500": 0.109,
+        "2000": 0.0304
+      },
+      "n_sims": 5000
+    },
+    "files": {
+      "sims_csv": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_sims_step20__drag_0.020__block_quarter__badq_0.25__badx_3.csv",
+      "paths_sample_parquet": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_paths_sample_step20__drag_0.020__block_quarter__badq_0.25__badx_3.parquet"
+    }
+  }
+}

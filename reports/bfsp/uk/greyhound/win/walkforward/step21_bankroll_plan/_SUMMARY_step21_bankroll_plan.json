@@ -1,0 +1,42 @@
+{
+  "real_bankroll": 2000,
+  "target_ruin": 0.01,
+  "picked_variant": "drag=0.005|block=month|badq=0.25|badx=3",
+  "sims_csv": "reports/bfsp/uk/greyhound/win/walkforward/step20_adversarial_mc/mc_sims_step20__drag_0.005__block_month__badq_0.25__badx_3.csv",
+  "ruin_probs_unit_stake1": {
+    "200": 0.8594,
+    "300": 0.782,
+    "500": 0.6494,
+    "750": 0.468,
+    "1000": 0.3286,
+    "1500": 0.1218,
+    "2000": 0.0348
+  },
+  "bankroll_required_unit_stake1": 0.0,
+  "recommended_stake_k": 0.0,
+  "governor": {
+    "q_used": 0.05,
+    "dd_p05_mag_unit": 2058.8932378440404,
+    "w20_p05_mag_unit": 264.47996581006265,
+    "dd_p05_mag_real": 0.0,
+    "w20_p05_mag_real": 0.0,
+    "recommended_rules": {
+      "soft_throttle": {
+        "when_running_drawdown_exceeds": 0.0,
+        "or_when_rolling_20d_loss_exceeds": 0.0,
+        "action": "halve stake (k -> 0.5k) for next 20 betting days, then re-evaluate"
+      },
+      "hard_stop": {
+        "when_running_drawdown_exceeds": 0.0,
+        "or_when_rolling_20d_loss_exceeds": 0.0,
+        "action": "pause betting for 20 betting days, then resume at half stake"
+      }
+    }
+  },
+  "stake_plan_csv": "reports/bfsp/uk/greyhound/win/walkforward/step21_bankroll_plan/stake_plan_step21.csv",
+  "notes": {
+    "interpretation": "recommended_stake_k scales the unit-stake strategy. If you treated 1 unit = \u00a31 previously, then stake_k \u2248 \u00a3 per bet. If you bet in \u00a30.10 increments, round stake_k accordingly.",
+    "why_month_blocks": "Month blocks preserve clustering and are more conservative than quarter blocks.",
+    "drag": "Per-bet drag is applied daily as drag * n_bets to approximate commission/slippage/edge decay."
+  }
+}

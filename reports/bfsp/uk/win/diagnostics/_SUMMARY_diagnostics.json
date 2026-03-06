@@ -1,0 +1,314 @@
+[
+  {
+    "file": "reports/bfsp/uk/win/bin_sweeps/bsp_10_00_20_00_daily.parquet",
+    "start": "2020-12-31",
+    "end": "2026-02-26",
+    "total_pnl": 425.51953637605857,
+    "n_days": 1862,
+    "n_bets": 107740,
+    "max_drawdown": {
+      "peak_idx": 1321,
+      "trough_idx": 1583,
+      "peak_equity": 607.3147667760593,
+      "trough_equity": -559.5316808139407,
+      "max_dd": -1166.84644759,
+      "max_dd_pct": -1.9213207243160315
+    },
+    "time_to_recovery": {
+      "n_events": 24,
+      "median_days": 6.0,
+      "p90_days": 122.19999999999993,
+      "max_days": 1058.0
+    },
+    "losing_streaks_day": {
+      "count": 457,
+      "max": 11,
+      "p90": 4.0,
+      "median": 2.0
+    },
+    "tails": {
+      "worst_1d": -109.0,
+      "p1_1d": -57.1943974383,
+      "p5_1d": -38.512250515999995,
+      "worst_5d": -235.42922754999995,
+      "p1_5d": -132.60068047981363,
+      "p5_5d": -90.29154511816786,
+      "worst_20d": -473.14073609,
+      "p1_20d": -304.7047673508,
+      "p5_20d": -204.25554112994254
+    }
+  },
+  {
+    "file": "reports/bfsp/uk/win/bin_sweeps/bsp_1_01_1_50_daily.parquet",
+    "start": "2021-01-01",
+    "end": "2026-02-26",
+    "total_pnl": 18.468633718853162,
+    "n_days": 1152,
+    "n_bets": 1887,
+    "max_drawdown": {
+      "peak_idx": 953,
+      "trough_idx": 1085,
+      "peak_equity": 35.81223659885315,
+      "trough_equity": 16.70582218885315,
+      "max_dd": -19.106414409999996,
+      "max_dd_pct": -0.533516368274297
+    },
+    "time_to_recovery": {
+      "n_events": 37,
+      "median_days": 5.0,
+      "p90_days": 77.39999999999995,
+      "max_days": 303.0
+    },
+    "losing_streaks_day": {
+      "count": 259,
+      "max": 10,
+      "p90": 2.0,
+      "median": 1.0
+    },
+    "tails": {
+      "worst_1d": -6.0,
+      "p1_1d": -2.0,
+      "p5_1d": -1.1751802955,
+      "worst_5d": -7.3170354600000005,
+      "p1_5d": -4.662246962251549,
+      "p5_5d": -3.1729686145000002,
+      "worst_20d": -12.778756349999998,
+      "p1_20d": -10.309505331999997,
+      "p5_20d": -6.716164311349632
+    }
+  },
+  {
+    "file": "reports/bfsp/uk/win/bin_sweeps/bsp_1_50_2_50_daily.parquet",
+    "start": "2020-12-31",
+    "end": "2026-02-26",
+    "total_pnl": -149.5863223990588,
+    "n_days": 1857,
+    "n_bets": 14122,
+    "max_drawdown": {
+      "peak_idx": 17,
+      "trough_idx": 1015,
+      "peak_equity": 9.136448718677478,
+      "trough_equity": -196.81344394905867,
+      "max_dd": -205.94989266773615,
+      "max_dd_pct": -22.541569378780235
+    },
+    "time_to_recovery": {
+      "n_events": 2,
+      "median_days": 927.0,
+      "p90_days": 1657.4,
+      "max_days": 1840.0
+    },
+    "losing_streaks_day": {
+      "count": 455,
+      "max": 9,
+      "p90": 4.0,
+      "median": 2.0
+    },
+    "tails": {
+      "worst_1d": -18.45278756,
+      "p1_1d": -7.405792226295977,
+      "p5_1d": -4.67813151,
+      "worst_5d": -24.347911819999993,
+      "p1_5d": -16.639020155999994,
+      "p5_5d": -11.29933262599999,
+      "worst_20d": -46.02357489999999,
+      "p1_20d": -32.66403585171907,
+      "p5_20d": -20.91151742035701
+    }
+  },
+  {
+    "file": "reports/bfsp/uk/win/bin_sweeps/bsp_20_00_50_00_daily.parquet",
+    "start": "2020-12-31",
+    "end": "2026-02-26",
+    "total_pnl": -1236.3556788441215,
+    "n_days": 1862,
+    "n_bets": 87515,
+    "max_drawdown": {
+      "peak_idx": 574,
+      "trough_idx": 1460,
+      "peak_equity": 170.72488212879927,
+      "trough_equity": -1776.928638084123,
+      "max_dd": -1947.653520212922,
+      "max_dd_pct": -11.408140957119313
+    },
+    "time_to_recovery": {
+      "n_events": 3,
+      "median_days": 558.0,
+      "p90_days": 1142.0,
+      "max_days": 1288.0
+    },
+    "losing_streaks_day": {
+      "count": 469,
+      "max": 11,
+      "p90": 4.0,
+      "median": 2.0
+    },
+    "tails": {
+      "worst_1d": -179.74377176000002,
+      "p1_1d": -71.78,
+      "p5_1d": -51.0,
+      "worst_5d": -330.06815507,
+      "p1_5d": -168.14685004307893,
+      "p5_5d": -122.93745227586409,
+      "worst_20d": -540.3254338315328,
+      "p1_20d": -389.4294118993209,
+      "p5_20d": -279.1211976309999
+    }
+  },
+  {
+    "file": "reports/bfsp/uk/win/bin_sweeps/bsp_2_50_4_00_daily.parquet",
+    "start": "2020-12-31",
+    "end": "2026-02-26",
+    "total_pnl": 15.38933059176459,
+    "n_days": 1862,
+    "n_bets": 37745,
+    "max_drawdown": {
+      "peak_idx": 512,
+      "trough_idx": 806,
+      "peak_equity": 152.67440217393494,
+      "trough_equity": -73.09641265823547,
+      "max_dd": -225.7708148321704,
+      "max_dd_pct": -1.4787732037421708
+    },
+    "time_to_recovery": {
+      "n_events": 22,
+      "median_days": 4.5,
+      "p90_days": 228.60000000000025,
+      "max_days": 1077.0
+    },
+    "losing_streaks_day": {
+      "count": 465,
+      "max": 11,
+      "p90": 4.0,
+      "median": 2.0
+    },
+    "tails": {
+      "worst_1d": -25.809631500000002,
+      "p1_1d": -15.350586837052763,
+      "p5_1d": -9.671695964205913,
+      "worst_5d": -46.59496129,
+      "p1_5d": -32.814982857299995,
+      "p5_5d": -23.1153157328339,
+      "worst_20d": -99.91624018000002,
+      "p1_20d": -62.81677113339056,
+      "p5_20d": -40.054046855999985
+    }
+  },
+  {
+    "file": "reports/bfsp/uk/win/bin_sweeps/bsp_4_00_6_00_daily.parquet",
+    "start": "2020-12-31",
+    "end": "2026-02-26",
+    "total_pnl": -452.1394871801715,
+    "n_days": 1862,
+    "n_bets": 56307,
+    "max_drawdown": {
+      "peak_idx": 241,
+      "trough_idx": 1706,
+      "peak_equity": 210.26396273255807,
+      "trough_equity": -603.5977227401711,
+      "max_dd": -813.8616854727292,
+      "max_dd_pct": -3.870666541693156
+    },
+    "time_to_recovery": {
+      "n_events": 14,
+      "median_days": 9.5,
+      "p90_days": 53.000000000000014,
+      "max_days": 1621.0
+    },
+    "losing_streaks_day": {
+      "count": 465,
+      "max": 11,
+      "p90": 4.0,
+      "median": 2.0
+    },
+    "tails": {
+      "worst_1d": -47.4,
+      "p1_1d": -21.8474386187,
+      "p5_1d": -15.448787473,
+      "worst_5d": -97.99724159,
+      "p1_5d": -49.024111147099994,
+      "p5_5d": -34.47538993814084,
+      "worst_20d": -130.95375153,
+      "p1_20d": -100.07919015700001,
+      "p5_20d": -77.011901894
+    }
+  },
+  {
+    "file": "reports/bfsp/uk/win/bin_sweeps/bsp_50_00_1000_daily.parquet",
+    "start": "2020-12-31",
+    "end": "2026-02-26",
+    "total_pnl": -7672.758742821494,
+    "n_days": 1862,
+    "n_bets": 79213,
+    "max_drawdown": {
+      "peak_idx": 51,
+      "trough_idx": 1858,
+      "peak_equity": 460.53497420191877,
+      "trough_equity": -7735.758742821493,
+      "max_dd": -8196.29371702341,
+      "max_dd_pct": -17.79733174712111
+    },
+    "time_to_recovery": {
+      "n_events": 5,
+      "median_days": 10.0,
+      "p90_days": 1098.6000000000001,
+      "max_days": 1811.0
+    },
+    "losing_streaks_day": {
+      "count": 377,
+      "max": 19,
+      "p90": 8.0,
+      "median": 3.0
+    },
+    "tails": {
+      "worst_1d": -152.0,
+      "p1_1d": -94.0,
+      "p5_1d": -68.94999999999999,
+      "worst_5d": -315.0,
+      "p1_5d": -269.43,
+      "p5_5d": -224.0,
+      "worst_20d": -793.3891,
+      "p1_20d": -679.9331959716138,
+      "p5_20d": -601.9844787858776
+    }
+  },
+  {
+    "file": "reports/bfsp/uk/win/bin_sweeps/bsp_6_00_10_00_daily.parquet",
+    "start": "2020-12-31",
+    "end": "2026-02-26",
+    "total_pnl": 424.42777575563576,
+    "n_days": 1862,
+    "n_bets": 85157,
+    "max_drawdown": {
+      "peak_idx": 31,
+      "trough_idx": 334,
+      "peak_equity": 139.00346917543027,
+      "trough_equity": -517.9147003540579,
+      "max_dd": -656.9181695294882,
+      "max_dd_pct": -4.725912046845537
+    },
+    "time_to_recovery": {
+      "n_events": 25,
+      "median_days": 4.0,
+      "p90_days": 175.2000000000002,
+      "max_days": 962.0
+    },
+    "losing_streaks_day": {
+      "count": 458,
+      "max": 11,
+      "p90": 4.0,
+      "median": 2.0
+    },
+    "tails": {
+      "worst_1d": -92.0,
+      "p1_1d": -38.4136409304,
+      "p5_1d": -25.699178342,
+      "worst_5d": -123.19010908329818,
+      "p1_5d": -87.47965195050003,
+      "p5_5d": -58.290966837077065,
+      "worst_20d": -207.0472525982261,
+      "p1_20d": -158.37453688852895,
+      "p5_20d": -114.77636056018281
+    }
+  }
+]

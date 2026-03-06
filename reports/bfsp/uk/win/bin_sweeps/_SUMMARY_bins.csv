@@ -1,0 +1,9 @@
+bin,bsp_min,bsp_max,stake,total_pnl,n_bets,n_days,daily_file
+bsp_1_01_1_50,1.01,1.5,1.0,18.468633718853162,1887,1152,reports/bfsp/uk/win/bin_sweeps/bsp_1_01_1_50_daily.parquet
+bsp_1_50_2_50,1.5,2.5,1.0,-149.5863223990588,14122,1857,reports/bfsp/uk/win/bin_sweeps/bsp_1_50_2_50_daily.parquet
+bsp_2_50_4_00,2.5,4.0,1.0,15.38933059176459,37745,1862,reports/bfsp/uk/win/bin_sweeps/bsp_2_50_4_00_daily.parquet
+bsp_4_00_6_00,4.0,6.0,1.0,-452.1394871801715,56307,1862,reports/bfsp/uk/win/bin_sweeps/bsp_4_00_6_00_daily.parquet
+bsp_6_00_10_00,6.0,10.0,1.0,424.42777575563576,85157,1862,reports/bfsp/uk/win/bin_sweeps/bsp_6_00_10_00_daily.parquet
+bsp_10_00_20_00,10.0,20.0,1.0,425.51953637605857,107740,1862,reports/bfsp/uk/win/bin_sweeps/bsp_10_00_20_00_daily.parquet
+bsp_20_00_50_00,20.0,50.0,1.0,-1236.3556788441215,87515,1862,reports/bfsp/uk/win/bin_sweeps/bsp_20_00_50_00_daily.parquet
+bsp_50_00_1000,50.0,1000000.0,1.0,-7672.758742821494,79213,1862,reports/bfsp/uk/win/bin_sweeps/bsp_50_00_1000_daily.parquet

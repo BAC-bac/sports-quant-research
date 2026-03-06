@@ -1,0 +1,9 @@
+basket_file,basket,year,pnl,max_dd,worst_1d,worst_5d,worst_20d,ttr_median,ttr_p90,ttr_max,n_days
+reports/bfsp/uk/greyhound/win/track_baskets/basket_TOP3_BY_POST_PNL_daily.parquet,basket_TOP3_BY_POST_PNL,2018,141.1119047097934,-161.18360366621175,-32.0,-69.0,-110.05997280914154,65.5,153.9,176.0,251
+reports/bfsp/uk/greyhound/win/track_baskets/basket_TOP3_BY_POST_PNL_daily.parquet,basket_TOP3_BY_POST_PNL,2019,728.8931446342299,-149.062587437859,-30.0,-68.47291727179957,-122.95991400785896,6.0,37.0,53.0,255
+reports/bfsp/uk/greyhound/win/track_baskets/basket_TOP3_BY_POST_PNL_daily.parquet,basket_TOP3_BY_POST_PNL,2020,-147.15121614800495,-306.44372735075575,-37.0,-84.8310850927414,-153.88878877974196,,,,211
+reports/bfsp/uk/greyhound/win/track_baskets/basket_TOP3_BY_POST_PNL_daily.parquet,basket_TOP3_BY_POST_PNL,2021,452.0190827635313,-230.28040193001058,-48.5,-96.19941767417474,-152.63109872938628,18.0,73.20000000000002,98.0,332
+reports/bfsp/uk/greyhound/win/track_baskets/basket_TOP3_BY_POST_PNL_daily.parquet,basket_TOP3_BY_POST_PNL,2022,741.7214500150144,-203.4379219082847,-61.0,-117.34049732389161,-169.1654244636752,23.5,92.5,122.0,351
+reports/bfsp/uk/greyhound/win/track_baskets/basket_TOP3_BY_POST_PNL_daily.parquet,basket_TOP3_BY_POST_PNL,2023,783.0529247946145,-188.15201681,-38.47047667,-74.7260462,-155.92822354999998,9.0,36.0,53.0,362
+reports/bfsp/uk/greyhound/win/track_baskets/basket_TOP3_BY_POST_PNL_daily.parquet,basket_TOP3_BY_POST_PNL,2024,377.42955382,-180.89228747000013,-36.0,-94.75737193999998,-136.62899043000002,17.0,67.0,81.0,358
+reports/bfsp/uk/greyhound/win/track_baskets/basket_TOP3_BY_POST_PNL_daily.parquet,basket_TOP3_BY_POST_PNL,2025,678.85591957,-153.07936207000012,-45.0,-84.58158385,-131.1210637,5.5,42.5,56.0,225

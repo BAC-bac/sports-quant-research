@@ -1,0 +1,9 @@
+raw:
+  bfsp_horse_racing_root: "/media/ben/STORAGE/Horse Racing"
+
+master:
+  root: "./data/master"
+  dataset: "bfsp/uk/place"
+
+reports:
+  root: "./reports"

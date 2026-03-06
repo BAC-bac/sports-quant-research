@@ -1,0 +1,6 @@
+variant,target_ruin,bankroll_required_unit_stake1,recommended_stake_k,recommended_unit_stake_for_£1_bankroll
+drag=0.005|block=month|badq=0.25|badx=3,0.1,200.0,10.0,10.0
+drag=0.005|block=month|badq=0.25|badx=3,0.05,200.0,10.0,10.0
+drag=0.005|block=month|badq=0.25|badx=3,0.02,0.0,0.0,0.0
+drag=0.005|block=month|badq=0.25|badx=3,0.01,0.0,0.0,0.0
+drag=0.005|block=month|badq=0.25|badx=3,0.005,0.0,0.0,0.0

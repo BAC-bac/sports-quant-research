@@ -1,0 +1,9 @@
+bin,bsp_min,bsp_max,stake,total_pnl,n_bets,n_days,daily_file
+bsp_1_01_1_50,1.01,1.5,1.0,506.62003921786777,50040,2963,reports/bfsp/uk/greyhound/win/bin_sweeps/bsp_1_01_1_50_daily.parquet
+bsp_1_50_2_50,1.5,2.5,1.0,-2843.6495227707646,457491,2980,reports/bfsp/uk/greyhound/win/bin_sweeps/bsp_1_50_2_50_daily.parquet
+bsp_2_50_4_00,2.5,4.0,1.0,2602.616253066122,1336181,2980,reports/bfsp/uk/greyhound/win/bin_sweeps/bsp_2_50_4_00_daily.parquet
+bsp_4_00_6_00,4.0,6.0,1.0,-18279.699287769836,1756945,2980,reports/bfsp/uk/greyhound/win/bin_sweeps/bsp_4_00_6_00_daily.parquet
+bsp_6_00_10_00,6.0,10.0,1.0,-6270.070475462998,2092502,2979,reports/bfsp/uk/greyhound/win/bin_sweeps/bsp_6_00_10_00_daily.parquet
+bsp_10_00_20_00,10.0,20.0,1.0,6203.136779470657,1996464,2980,reports/bfsp/uk/greyhound/win/bin_sweeps/bsp_10_00_20_00_daily.parquet
+bsp_20_00_50_00,20.0,50.0,1.0,-29632.330079758933,1287857,2980,reports/bfsp/uk/greyhound/win/bin_sweeps/bsp_20_00_50_00_daily.parquet
+bsp_50_00_1000,50.0,1000.0,1.0,-88038.159432177,876423,2980,reports/bfsp/uk/greyhound/win/bin_sweeps/bsp_50_00_1000_daily.parquet

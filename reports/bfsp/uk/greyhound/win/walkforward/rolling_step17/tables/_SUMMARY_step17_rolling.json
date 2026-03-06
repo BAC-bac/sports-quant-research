@@ -1,0 +1,22 @@
+{
+  "start_month": "2022-01",
+  "end_month": "2023-02",
+  "top_n": 3,
+  "min_train_bets_per_track": 500,
+  "bands": [
+    "10-12",
+    "12-15",
+    "15-20"
+  ],
+  "combined": {
+    "total_pnl": 1333.0108121496419,
+    "n_days": 414,
+    "n_bets": 17460,
+    "max_dd": -342.3686614714991,
+    "ttr_p90_days": 24.0,
+    "worst_1d": -78.0,
+    "worst_5d": -161.31276225719256,
+    "worst_20d": -262.83970290258213
+  },
+  "n_test_months": 14
+}

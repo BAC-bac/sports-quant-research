@@ -1,0 +1,118 @@
+{
+  "test_start": "2022-01-01 00:00:00",
+  "test_end": "2023-02-20 23:59:59",
+  "bsp_lo": 10.0,
+  "bsp_hi": 20.0,
+  "n_bets_loaded": 70926,
+  "n_tracks_loaded": 22,
+  "baskets": {
+    "WF_TOP3_TRAIN_PNL": {
+      "tracks": [
+        "Harlow",
+        "Crayford",
+        "Romford"
+      ],
+      "base": {
+        "total_pnl": 575.5455425949617,
+        "max_dd": -254.5995345675716,
+        "n_bets": 14371,
+        "win_rate": 0.08099645118641709,
+        "ratio": 2.2605914954734923
+      },
+      "paths": {
+        "track_contribution": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_TOP3_TRAIN_PNL_track_contribution.csv",
+        "bsp_subbands": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_TOP3_TRAIN_PNL_bsp_subbands.csv",
+        "monthly_pnl": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_TOP3_TRAIN_PNL_monthly_pnl.csv",
+        "concentration_tests": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_TOP3_TRAIN_PNL_concentration_tests.csv"
+      }
+    },
+    "WF_TOP5_TRAIN_PNL": {
+      "tracks": [
+        "Harlow",
+        "Crayford",
+        "Romford",
+        "Swindon",
+        "Hove"
+      ],
+      "base": {
+        "total_pnl": 597.3000190309258,
+        "max_dd": -438.6742560194683,
+        "n_bets": 23672,
+        "win_rate": 0.08001013856032443,
+        "ratio": 1.3616026261737542
+      },
+      "paths": {
+        "track_contribution": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_TOP5_TRAIN_PNL_track_contribution.csv",
+        "bsp_subbands": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_TOP5_TRAIN_PNL_bsp_subbands.csv",
+        "monthly_pnl": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_TOP5_TRAIN_PNL_monthly_pnl.csv",
+        "concentration_tests": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_TOP5_TRAIN_PNL_concentration_tests.csv"
+      }
+    },
+    "WF_TOP10_TRAIN_PNL": {
+      "tracks": [
+        "Harlow",
+        "Crayford",
+        "Romford",
+        "Swindon",
+        "Hove",
+        "Sunderland",
+        "Perry Barr",
+        "Towcester",
+        "Henlow",
+        "Kinsley"
+      ],
+      "base": {
+        "total_pnl": 428.4400122946861,
+        "max_dd": -821.4617516715398,
+        "n_bets": 39050,
+        "win_rate": 0.07943661971830986,
+        "ratio": 0.5215580779298379
+      },
+      "paths": {
+        "track_contribution": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_TOP10_TRAIN_PNL_track_contribution.csv",
+        "bsp_subbands": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_TOP10_TRAIN_PNL_bsp_subbands.csv",
+        "monthly_pnl": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_TOP10_TRAIN_PNL_monthly_pnl.csv",
+        "concentration_tests": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_TOP10_TRAIN_PNL_concentration_tests.csv"
+      }
+    },
+    "WF_ALL_UK_10_20": {
+      "tracks": [
+        "Central Park",
+        "Crayford",
+        "Doncaster",
+        "Harlow",
+        "Henlow",
+        "Hove",
+        "Kinsley",
+        "Monmore",
+        "Mullingar",
+        "Newcastle",
+        "Nottingham",
+        "Oxford",
+        "Pelaw Grange",
+        "Perry Barr",
+        "Romford",
+        "Sheffield",
+        "Shelbourne Park",
+        "Suffolk Downs",
+        "Sunderland",
+        "Swindon",
+        "Towcester",
+        "Yarmouth"
+      ],
+      "base": {
+        "total_pnl": -40.3253721635495,
+        "max_dd": -1208.6453321046151,
+        "n_bets": 70926,
+        "win_rate": 0.07851845585539859,
+        "ratio": -0.033364106981930666
+      },
+      "paths": {
+        "track_contribution": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_ALL_UK_10_20_track_contribution.csv",
+        "bsp_subbands": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_ALL_UK_10_20_bsp_subbands.csv",
+        "monthly_pnl": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_ALL_UK_10_20_monthly_pnl.csv",
+        "concentration_tests": "reports/bfsp/uk/greyhound/win/walkforward/forensics_step15/WF_ALL_UK_10_20_concentration_tests.csv"
+      }
+    }
+  }
+}

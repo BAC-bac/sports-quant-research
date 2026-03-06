@@ -1,0 +1,26 @@
+stake: 1.0
+bins:
+  - name: bsp_1_01_1_50
+    bsp_min: 1.01
+    bsp_max: 1.50
+  - name: bsp_1_50_2_50
+    bsp_min: 1.50
+    bsp_max: 2.50
+  - name: bsp_2_50_4_00
+    bsp_min: 2.50
+    bsp_max: 4.00
+  - name: bsp_4_00_6_00
+    bsp_min: 4.00
+    bsp_max: 6.00
+  - name: bsp_6_00_10_00
+    bsp_min: 6.00
+    bsp_max: 10.00
+  - name: bsp_10_00_20_00
+    bsp_min: 10.00
+    bsp_max: 20.00
+  - name: bsp_20_00_50_00
+    bsp_min: 20.00
+    bsp_max: 50.00
+  - name: bsp_50_00_1000
+    bsp_min: 50.00
+    bsp_max: 1000.00
