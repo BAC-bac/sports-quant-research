@@ -1,34 +1,109 @@
-# BA_Sports_Market_Research_Engine
+# Sports Quant Research Engine
 
-A quantitative research engine for analysing sports betting markets using historical Betfair SP (Starting Price) data.
+## Overview
 
-This project is designed to replicate a professional systematic trading research workflow, applied to sports markets such as horse racing, greyhound racing, and football.
+This project is a quantitative research engine designed to analyse sports betting markets and identify statistically robust edges.
 
----
+It provides a structured pipeline for transforming raw betting data into actionable insights through data processing, feature engineering, and strategy evaluation.
 
-## 📌 Project Overview
-
-The **BA_Sports_Market_Research_Engine** is a data-driven pipeline that ingests raw market data, processes and standardises it, and produces structured outputs for statistical analysis, strategy development, and edge detection.
-
-The goal is not prediction in isolation, but **robust, repeatable edge discovery** through:
-
-- Historical data analysis
-- Market behaviour profiling
-- Risk-aware strategy testing
-- Regime-aware performance evaluation
+The long-term goal is to build repeatable, data-driven systems that can be tested, refined, and deployed in real-world betting environments.
 
 ---
 
-## 🎯 Objectives
+## Key Features
 
-- Build a **fully automated research pipeline** for sports betting markets
-- Identify **inefficiencies in Betfair markets**
-- Evaluate **profitability across price segments and conditions**
-- Develop **systematic betting strategies**
-- Create a **scalable data architecture** for future ML integration
+* Automated data ingestion from historical and structured betting datasets
+* Data cleaning and transformation pipelines
+* Feature engineering for market behaviour analysis (odds, movement, volume, etc.)
+* Strategy research and backtesting framework
+* Performance evaluation including ROI, strike rate, and drawdown metrics
 
 ---
 
-## 🧱 Architecture
+## Project Structure
 
-The engine follows a modular pipeline structure:
+```
+data/
+  raw/              # Original source data
+  processed/        # Cleaned and structured datasets
+
+notebooks/
+  exploratory_analysis.ipynb
+  strategy_research.ipynb
+
+src/
+  data_ingestion/
+  data_cleaning/
+  feature_engineering/
+  modelling/
+  backtesting/
+
+scripts/
+  run_pipeline.py
+  update_data.py
+
+results/
+  reports/
+  charts/
+```
+
+---
+
+## Workflow
+
+```
+Raw Data → Cleaning → Feature Engineering → Strategy Development → Backtesting → Evaluation
+```
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Jupyter Notebooks
+
+Planned:
+
+* scikit-learn
+* vectorbt
+* SQL / database integration
+
+---
+
+## Example Use Cases
+
+* Evaluating betting strategies using historical results
+* Analysing market inefficiencies
+* Testing hypotheses on odds movement and outcome probability
+* Comparing performance across different sports or markets
+
+---
+
+## Project Goals
+
+The primary objective is to develop a robust research framework capable of identifying repeatable edges in betting markets.
+
+Rather than relying on prediction alone, the focus is on:
+
+* statistical validation
+* risk management
+* long-term profitability
+
+---
+
+## Future Improvements
+
+* Integration with live data feeds
+* Automated strategy execution
+* Machine learning models for probability estimation
+* Multi-market and multi-sport expansion
+* Dashboard and reporting interface
+
+---
+
+## Author
+
+Ben Cole
+Quantitative research, systematic trading, and data-driven strategy development
