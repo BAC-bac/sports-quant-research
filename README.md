@@ -1,109 +1,110 @@
 # Sports Quant Research Engine
 
-## Overview
+A Python-based quantitative research framework for analysing sports betting markets, testing betting hypotheses, and evaluating strategy robustness using historical market data.
 
-This project is a quantitative research engine designed to analyse sports betting markets and identify statistically robust edges.
+## Project Purpose
 
-It provides a structured pipeline for transforming raw betting data into actionable insights through data processing, feature engineering, and strategy evaluation.
+This project is designed to turn raw sports betting market data into structured research outputs.
 
-The long-term goal is to build repeatable, data-driven systems that can be tested, refined, and deployed in real-world betting environments.
+The focus is not simply predicting winners. The aim is to evaluate whether a betting idea has evidence, realistic risk characteristics, and repeatable long-term behaviour.
 
----
+## Current Research Focus
 
-## Key Features
+- Horse racing Betfair Starting Price analysis
+- Greyhound racing results and tips analysis
+- Price-band performance
+- Strike rate and ROI analysis
+- Drawdown and losing-run evaluation
+- Strategy robustness across time periods
 
-* Automated data ingestion from historical and structured betting datasets
-* Data cleaning and transformation pipelines
-* Feature engineering for market behaviour analysis (odds, movement, volume, etc.)
-* Strategy research and backtesting framework
-* Performance evaluation including ROI, strike rate, and drawdown metrics
+## Tech Stack
 
----
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- PyArrow
+- Jupyter Notebooks
+- PyCharm Professional
+- Git / GitHub
+- CSV / Parquet
 
-## Project Structure
+## Repository Structure
 
-```
-data/
-  raw/              # Original source data
-  processed/        # Cleaned and structured datasets
-
-notebooks/
-  exploratory_analysis.ipynb
-  strategy_research.ipynb
-
-src/
-  data_ingestion/
-  data_cleaning/
-  feature_engineering/
-  modelling/
-  backtesting/
-
-scripts/
-  run_pipeline.py
-  update_data.py
-
-results/
-  reports/
-  charts/
+```text
+sports-quant-research/
+│
+├── config/          Configuration files
+├── data/sample/     Small sample datasets only
+├── docs/            Methodology and research notes
+├── reports/examples/ Example outputs and diagnostics
+├── scripts/         Runnable research pipeline scripts
+├── src/             Reusable Python modules
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
 
-## Workflow
+## Research Workflow
 
 ```
-Raw Data → Cleaning → Feature Engineering → Strategy Development → Backtesting → Evaluation
+Raw Data
+   ↓
+Cleaning and Normalisation
+   ↓
+Feature Engineering
+   ↓
+Strategy Testing
+   ↓
+Performance Evaluation
+   ↓
+Reports and Diagnostics
 ```
 
 ---
 
-## Technologies Used
+## Example Metrics
 
-* Python
-* Pandas
-* NumPy
-* Jupyter Notebooks
-
-Planned:
-
-* scikit-learn
-* vectorbt
-* SQL / database integration
-
----
-
-## Example Use Cases
-
-* Evaluating betting strategies using historical results
-* Analysing market inefficiencies
-* Testing hypotheses on odds movement and outcome probability
-* Comparing performance across different sports or markets
+The project is designed to evaluate strategies using metrics such as:
+* Profit and loss
+* Return on investment
+* Strike rate
+* Average odds / BSP
+* Maximum drawdown
+* Longest losing run
+* Price-band performance
+* Year-by-year robustness
+* Commission-adjusted returns
 
 ---
 
-## Project Goals
+## Why This Project Matters
 
-The primary objective is to develop a robust research framework capable of identifying repeatable edges in betting markets.
+Sports betting markets can be analysed in a similar way to financial markets. A strategy should not only be 
+judged by whether it made money historically, but also by whether the returns appear robust, explainable, 
+and realistic after costs.
 
-Rather than relying on prediction alone, the focus is on:
-
-* statistical validation
-* risk management
-* long-term profitability
+This project reflects my wider interest in quantitative research, market behaviour, risk management, 
+and systematic strategy development.
 
 ---
 
-## Future Improvements
+## Project Status
+Active research project.
 
-* Integration with live data feeds
-* Automated strategy execution
-* Machine learning models for probability estimation
-* Multi-market and multi-sport expansion
-* Dashboard and reporting interface
+Current development priorities:
+1. Standardise the project structure
+2. Add small sample datasets
+3. Produce reproducible example reports
+4. Improve strategy diagnostics
+5. Build clearer links between research outputs and written analysis
 
 ---
 
 ## Author
 
 Ben Cole
-Quantitative research, systematic trading, and data-driven strategy development
+Aspiring quantitative researcher focused on Python, data analysis, systematic trading, 
+sports market research, and risk-aware strategy development.
