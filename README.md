@@ -115,6 +115,25 @@ Current development priorities:
 
 ---
 
+## How to Run (Basic Example)
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Use the sample dataset located in:
+
+```data/sample/sample_betting_results.csv```
+
+3. Run analysis scripts from the ```scripts/``` folder to generate outputs such as :
+
+```reports/examples/price_band_analysis.csv```
+
+
+---
+
 ## Author
 
 Ben Cole
