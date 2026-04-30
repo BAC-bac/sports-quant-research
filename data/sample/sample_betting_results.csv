@@ -1,0 +1,11 @@
+race_date,sport,market_type,selection_name,bsp,result,stake,profit_loss
+2025-01-01,Horse Racing,Win,Runner A,2.40,win,1.00,1.40
+2025-01-01,Horse Racing,Win,Runner B,3.75,lose,1.00,-1.00
+2025-01-02,Horse Racing,Win,Runner C,5.20,lose,1.00,-1.00
+2025-01-02,Horse Racing,Win,Runner D,8.50,win,1.00,7.50
+2025-01-03,Greyhound Racing,Win,Dog A,2.10,win,1.00,1.10
+2025-01-03,Greyhound Racing,Win,Dog B,4.80,lose,1.00,-1.00
+2025-01-04,Greyhound Racing,Win,Dog C,6.00,lose,1.00,-1.00
+2025-01-04,Greyhound Racing,Win,Dog D,12.00,win,1.00,11.00
+2025-01-05,Horse Racing,Win,Runner E,1.85,win,1.00,0.85
+2025-01-05,Horse Racing,Win,Runner F,9.40,lose,1.00,-1.00

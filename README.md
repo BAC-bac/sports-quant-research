@@ -80,6 +80,18 @@ The project is designed to evaluate strategies using metrics such as:
 
 ---
 
+## Example Output
+
+Example files are included to demonstrate the intended research workflow:
+
+- `data/sample/sample_betting_results.csv`
+-  `reports/examples/price_band_analysis.csv`
+
+These files show how raw betting results can be converted into summary analysis by 
+price band, including bets, wins, strike rate, profit/loss, and ROI.
+
+---
+
 ## Why This Project Matters
 
 Sports betting markets can be analysed in a similar way to financial markets. A strategy should not only be 
